@@ -10,7 +10,7 @@ public class ExternalServiceException extends RuntimeException {
         this.statusCode = statusCode;
     }
 
-    private HttpStatus getStatusCode() {
+    public HttpStatus getStatusCode() {
         return statusCode;
     }
 }
